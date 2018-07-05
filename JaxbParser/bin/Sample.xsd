@@ -1,0 +1,122 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="structured_bom">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="part" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="child" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="child2" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="child3" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                            <xs:sequence>
+                          <xs:element name="child4" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                            <xs:sequence>
+                          <xs:element name="child5" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                            <xs:sequence>
+                          <xs:element name="child6" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                            <xs:sequence>
+                          <xs:element name="child7" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                            <xs:sequence>
+                          <xs:element name="child8" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="status" use="optional"/>
+                                  <xs:attribute type="xs:string" name="rev" use="optional"/>
+                                  <xs:attribute type="xs:string" name="UoM" use="optional"/>
+                                  <xs:attribute type="xs:string" name="name" use="optional"/>
+                                  <xs:attribute type="xs:string" name="number" use="optional"/>
+                                  <xs:attribute type="xs:string" name="qty" use="optional"/>
+                                </xs:extension>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="status" use="optional"/>
+                                  <xs:attribute type="xs:string" name="rev" use="optional"/>
+                                  <xs:attribute type="xs:string" name="UoM" use="optional"/>
+                                  <xs:attribute type="xs:string" name="name" use="optional"/>
+                                  <xs:attribute type="xs:string" name="number" use="optional"/>
+                                  <xs:attribute type="xs:string" name="qty" use="optional"/>
+                                </xs:extension>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="status" use="optional"/>
+                                  <xs:attribute type="xs:string" name="rev" use="optional"/>
+                                  <xs:attribute type="xs:string" name="UoM" use="optional"/>
+                                  <xs:attribute type="xs:string" name="name" use="optional"/>
+                                  <xs:attribute type="xs:string" name="number" use="optional"/>
+                                  <xs:attribute type="xs:string" name="qty" use="optional"/>
+                                </xs:extension>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="status" use="optional"/>
+                                  <xs:attribute type="xs:string" name="rev" use="optional"/>
+                                  <xs:attribute type="xs:string" name="UoM" use="optional"/>
+                                  <xs:attribute type="xs:string" name="name" use="optional"/>
+                                  <xs:attribute type="xs:string" name="number" use="optional"/>
+                                  <xs:attribute type="xs:string" name="qty" use="optional"/>
+                                </xs:extension>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="status" use="optional"/>
+                                  <xs:attribute type="xs:string" name="rev" use="optional"/>
+                                  <xs:attribute type="xs:string" name="UoM" use="optional"/>
+                                  <xs:attribute type="xs:string" name="name" use="optional"/>
+                                  <xs:attribute type="xs:string" name="number" use="optional"/>
+                                  <xs:attribute type="xs:string" name="qty" use="optional"/>
+                                </xs:extension>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:string" name="status" use="optional"/>
+                                  <xs:attribute type="xs:string" name="rev" use="optional"/>
+                                  <xs:attribute type="xs:string" name="UoM" use="optional"/>
+                                  <xs:attribute type="xs:string" name="name" use="optional"/>
+                                  <xs:attribute type="xs:string" name="number" use="optional"/>
+                                  <xs:attribute type="xs:string" name="qty" use="optional"/>
+                                </xs:extension>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="status" use="optional"/>
+                        <xs:attribute type="xs:string" name="rev" use="optional"/>
+                        <xs:attribute type="xs:string" name="UoM" use="optional"/>
+                        <xs:attribute type="xs:string" name="name" use="optional"/>
+                        <xs:attribute type="xs:string" name="number" use="optional"/>
+                        <xs:attribute type="xs:string" name="qty" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="status" use="optional"/>
+                  <xs:attribute type="xs:string" name="rev" use="optional"/>
+                  <xs:attribute type="xs:string" name="UoM" use="optional"/>
+                  <xs:attribute type="xs:string" name="name" use="optional"/>
+                  <xs:attribute type="xs:int" name="number" use="optional"/>
+                  <xs:attribute type="xs:float" name="qty" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="rev" use="optional"/>
+            <xs:attribute type="xs:string" name="id" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
