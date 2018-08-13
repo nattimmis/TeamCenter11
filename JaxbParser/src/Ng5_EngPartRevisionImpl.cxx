@@ -46,7 +46,7 @@ Ng5_EngPartRevisionImpl::~Ng5_EngPartRevisionImpl()
 int Ng5_EngPartRevisionImpl::initializeClass()
 {
     int ifail = ITK_ok;
-    static bool initialized = true;
+    static bool initialized = false;
 
     if( !initialized )
     {
